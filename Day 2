@@ -1,0 +1,15 @@
+1.Program to swap two number using bitwise operator.
+#include<stdio.h>
+int main(){
+     int a = 15,b = 24;
+     printf("value of a=%d and b=%d before swapping");
+     a =a^b;
+     b =a^b;
+     a =a^b;
+     printf("value of a=%d and b=%d after swapping");
+     return 0;
+}
+
+output:
+ values of a and b before swapping a = 15 b = 24
+ values of a and b after swapping a = 24 b = 15
